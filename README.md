@@ -12,3 +12,9 @@ git clone https://github.com/kali-physi-hacker/captsone-project-template.git [yo
 cd [your-project-name]
 code .
 ```
+
+
+##### What next
+1. create a .env file and add the contents (More details in the video)
+2. run `npm install` inside your terminal in the backend folder
+3. outside backend folder but in your project folder, run `npx create-react-app frontend`. (That is going to be your frontend folder)
