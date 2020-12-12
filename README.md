@@ -6,7 +6,9 @@
 4. Go and get your MONGODB URLs (production URL and development URL)
 5. Start working
 
-##### Code snippet of above instruction
+##### Code snippet of above instruction (for getting the project on your computer)
 ```shell script
-git clone http://kali-physi-hacker
+git clone https://github.com/kali-physi-hacker/captsone-project-template.git [your-project-name]
+cd [your-project-name]
+code .
 ```
