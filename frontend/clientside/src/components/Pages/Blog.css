@@ -1,0 +1,82 @@
+.blog {
+
+    background-image: url(./images/blogpic.jpg); 
+    /* background-image: url(./images/cloud.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.stress {
+    background-image: url(./images/stress.jpg); 
+    /* background-image: url(./images/cloud.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.blogbtn {
+    border: none;
+    padding: 6px 40px;
+    background-color: rgba(231, 102, 16, 0.667);
+    color: white;
+    font-size: 18px;
+}
+
+.bills {
+    background-image: url(./images/bills2.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grateful{
+    background-image: url(./images/grateful.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.float{
+   float: right;
+  width: 120px;
+  margin: 0 0 15px 20px;
+  padding: 15px;
+  border: 1px solid black;
+  text-align: center;
+}

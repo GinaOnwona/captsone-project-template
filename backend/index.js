@@ -19,7 +19,12 @@ const app = express()
 
 
 // Usage of middlewares
-app.use(express.json())
+app.use(express.json())  
+
+// Middlewares are functions that have access to the request and response objects and can modify
+// request.body = {}
+
+// http://localhost:6000/api/signup  request_body => {firstName, "jakdjf", lastName: "jakdsjf"}
 
 app.use(authRoutes)
 
